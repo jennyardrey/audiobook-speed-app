@@ -1,8 +1,11 @@
 body {
     background-color: #1F7A7A;
     width: 100vw;
-    height: 100vh;
+    max-height: 100vh;
     color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 header {
     display: flex;
@@ -30,6 +33,14 @@ input {
     box-shadow: none;
     border: 1px solid white;
     color: white;
+}
+
+.time-inputs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .intro {

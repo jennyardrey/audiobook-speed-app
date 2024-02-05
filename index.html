@@ -16,11 +16,14 @@
             Use this tool to work out how much of your audiobook is left when you are using a playback speed above 1x
         </div>
         <form>
-            <label for="hoursInput">Hours:</label>
-            <input type="number" id="hoursInput"  min="0" step="1">
-        
-            <label for="minutesInput">Minutes:</label>
-            <input type="number" id="minutesInput"  min="0" max="59" step="1">
+            <div class="time-inputs">
+                <label for="hoursInput">Hours:</label>
+                <input type="number" id="hoursInput"  min="0" step="1">
+            
+                <label for="minutesInput">Minutes:</label>
+                <input type="number" id="minutesInput"  min="0" max="59" step="1">
+            </div>
+           
         
             <label for="speedInput">Speed:</label>
             <input type="number" id="speedInput"  min="0.1" step="0.1" value="1">
