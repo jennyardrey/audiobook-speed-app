@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
     <title>Audiobook Speed App</title>
@@ -23,9 +23,12 @@
             <input type="number" id="minutesInput"  min="0" max="59" step="1">
         
             <label for="speedInput">Speed:</label>
-            <input type="number" id="speedInput"  min="0.1" step="0.1">
-        
+            <input type="number" id="speedInput"  min="0.1" step="0.1" value="1">
         </form>
+        <div>
+            <h3>Remaining time:</h3>
+            <div id="remainingTime"></div>
+        </div>
     </main>
 </body>
 </html>
